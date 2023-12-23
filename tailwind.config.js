@@ -2,7 +2,14 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+      
+      fontFamily:{
+          'sans':['Rethink'],
+          'serif':['Kalnia']
+      }
+    extend: {
+        
+    },
   },
   plugins: [],
 }
